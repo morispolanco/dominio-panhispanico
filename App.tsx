@@ -69,6 +69,9 @@ function AuthenticatedApp() {
             <main className="flex-grow">{mainContent()}</main>
             <footer className="text-center py-6 text-sm text-slate-500 border-t mt-12">
                 <p>&copy; {new Date().getFullYear()} Dominio Panhispánico. Basado en el "Libro de estilo" de la RAE.</p>
+                <p className="mt-2">
+                    Creado por <a href="https://morispolanco.github.io/edu/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 hover:underline">Moris Polanco</a> con Google Gemini
+                </p>
             </footer>
         </div>
     );
